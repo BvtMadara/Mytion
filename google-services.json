@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "588920090624",
-    "firebase_url": "https://mytion-6d174-default-rtdb.firebaseio.com",
-    "project_id": "mytion-6d174",
-    "storage_bucket": "mytion-6d174.appspot.com"
+    "project_number": "393958991633",
+    "project_id": "mmyt-804ef",
+    "storage_bucket": "mmyt-804ef.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:588920090624:android:d41b55c663903086c428e5",
+        "mobilesdk_app_id": "1:393958991633:android:fa5b30cd4766426af28eb0",
         "android_client_info": {
           "package_name": "com.example.mytion"
         }
       },
       "oauth_client": [
         {
-          "client_id": "588920090624-ueg9rc9a4omtoicse89mvdv3eo67jdku.apps.googleusercontent.com",
+          "client_id": "393958991633-c3nqr8i0n71vhvr8bcs9bhn0ls0l631f.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCFdvMvcW24Y8KN0eBG7tM-McBOYf-wWp0"
+          "current_key": "AIzaSyDtQfsWqafoQzDhIBuFABJylRJeLwoQ398"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "588920090624-ueg9rc9a4omtoicse89mvdv3eo67jdku.apps.googleusercontent.com",
+              "client_id": "393958991633-c3nqr8i0n71vhvr8bcs9bhn0ls0l631f.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

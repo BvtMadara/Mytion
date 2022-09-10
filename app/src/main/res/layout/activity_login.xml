@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main1"
-    android:onClick="onClick"
     tools:context=".login">
 
     <LinearLayout
@@ -14,8 +13,9 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:orientation="vertical"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
 
         <TextView
@@ -40,7 +40,8 @@
             android:layout_marginRight="20dp"
             android:ems="10"
             android:hint="Введите email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/editTextPas"
@@ -51,7 +52,8 @@
             android:layout_marginRight="20dp"
             android:ems="10"
             android:hint="Введите пароль"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/button_login"
@@ -64,7 +66,8 @@
             android:backgroundTint="@color/main2"
             android:fontFamily="@font/roboto_medium"
 
-            android:onClick="onClick"
+
+            android:onClick="logIn"
             android:text="войти"
             android:textAlignment="center"
             android:textColor="@color/white"
